@@ -1,5 +1,5 @@
 ---
-# Main css file needs yaml prefix
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import: "bulma";
+@import: 'bulma';
