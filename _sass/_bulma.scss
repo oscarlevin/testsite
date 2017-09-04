@@ -30,3 +30,9 @@
 @import 'bulma/components/all';
 @import 'bulma/grid/all';
 @import 'bulma/layout/all';
+
+.content {
+  h1 {
+    @extend .title;
+  }
+}
